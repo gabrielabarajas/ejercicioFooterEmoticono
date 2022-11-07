@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&family=Open+Sans:wght@300&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFDDCF;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 20%;
+}
+.opcionNavega{
+    width: 20%;
+    align-content: center;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.imagenMain{
+    width: 50%;
+    height: 50%;
+}
+.cajaDescMain{
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    padding: 2% 6%;
+}
+.descripMain{
+    font-size: x-large;
+    padding: 2% 6%;
+}
+footer{
+    text-align: center;
+}
